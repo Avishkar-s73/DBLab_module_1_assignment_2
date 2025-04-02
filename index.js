@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 
 mongoose
-  .connect("mongodb+srv://db_assignment:vraj1204@cluster0.oz3ku.mongodb.net/", {
+  .connect("mongodb+srv://db_assignment:avishkar2013@cluster0.oz3ku.mongodb.net/", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
